@@ -23,3 +23,23 @@ body{
 	display: inline-block;
 	padding:  20px 30px;
 }
+
+.TopMenuBar nav ul li:hover {
+	background-color: #777;
+	color : #BBB;
+}
+
+.TopMenuBar nav ul li form {
+  	visibility: hidden;
+}
+
+.TopMenuBar nav ul li:hover form {
+	background: #777;
+  	display: block;
+  	opacity: 1;
+  	visibility: visible;
+}
+
+.TopMenuBar nav ul li form input {
+	text-align: right;
+}
