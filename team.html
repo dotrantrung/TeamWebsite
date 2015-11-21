@@ -6,11 +6,21 @@
 		<nav> 
 		<h1> Trung Dep Trai </h1>
 		<ul>
-			<li> <a href = "#">Home </a></li>
-			<li> <a href = "#">Sign Up </a></li>
-			<li> <a href = "#">Log in </a></li>
+			<li><a href = "#">Home </a></li>
+			<li><a href = "#">Sign Up </a></li>
+			<li><a href = "#">Log In </a> 
+				<form action=""> <!-- replace the blank with the data server to which inputs are sent-->
+					<h2 style="margin-left:10px;">User
+						<div style="float:right;" ALIGN="right"><input style="text-align: left; margin-left:5px; margin-right:10px;" name="id" type="text" /></div></h2>
+					<h2 style="margin-left:10px;">Pass<input style="text-align: left; margin-left:5px; margin-right:10px;" name="psw" type="password"/></h2>
+					<div ALIGN="center">
+				  	<button style="background:#CDDC2D; padding:5px; margin:10px;" type="submit" value="Submit" onClick="MyNamer();">Submit</button>
+				  	</div>
+				</form>
+			</li>
 		</ul> 
 		</nav>
+  		<script src = "interaction.js"></script>
 		<img src="Trung1.jpg" alt="Mountain View" style="width:304px;height:228px;">
 	</header>
 </head>
